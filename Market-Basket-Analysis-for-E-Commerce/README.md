@@ -3,6 +3,6 @@ The goal of this project is to extract valuable insights from transaction data, 
 
 ### Python Libraries
 These are the libraries I used for this project: 
-- Data Exploration & Preprocessing : `pandas` `numpy` 
+- Data Exploration & Preprocessing : `pandas`  
 - Data Visualization : `matplotlib` `seaborn` `plotly express`
 
