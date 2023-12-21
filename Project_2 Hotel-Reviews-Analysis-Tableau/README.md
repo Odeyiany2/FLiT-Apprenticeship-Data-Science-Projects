@@ -10,8 +10,8 @@ The goal is to explore the dataset, identify interesting patterns, and create im
 
 ## Process Structure
 **1. Data Importation and Exploration:**
-- I will import the provided hotel reservation dataset for exploration into my preferred SQL environment(MySQL)
-- Using MySQL will help to easily manage the large data we have and help with the handling of complex queries.
+- I will import the provided hotel reservation dataset for exploration into my preferred SQL environment(SQL Server)
+- Using SQL server will help to easily manage the large data we have and help with the handling of complex queries.
 
 **2. SQL Analysis:**
 - Use SQL for data manipulation and analysis.
