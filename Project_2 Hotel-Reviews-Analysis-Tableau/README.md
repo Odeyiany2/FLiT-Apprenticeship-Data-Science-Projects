@@ -4,14 +4,14 @@ The provided dataset contains information about hotel reservations at two types 
 The goal is to explore the dataset, identify interesting patterns, and create impactful visualizations to tell a compelling data story.
 
 ## Tools used for Analysis
-* `SQL Environment(postgreSQL)` - For Data Manipulation
+* `SQL Environment` - For Data Manipulation
 * `Tableau` - For Data Visualization
 * `Github` - For Documentation and code
 
 ## Process Structure
 **1. Data Importation and Exploration:**
-- I will import the provided hotel reservation dataset for exploration into my preferred SQL environment(PostgreSQL)
-- Using PostgreSQL will help to easily manage the large data we have and help with the handling of complex queries.
+- I will import the provided hotel reservation dataset for exploration into my preferred SQL environment(MySQL)
+- Using MySQL will help to easily manage the large data we have and help with the handling of complex queries.
 
 **2. SQL Analysis:**
 - Use SQL for data manipulation and analysis.
