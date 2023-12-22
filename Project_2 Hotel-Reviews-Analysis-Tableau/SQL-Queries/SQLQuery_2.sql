@@ -52,3 +52,28 @@ from [hotel-reviews - hotel_bookings]
 where [hotel-reviews - hotel_bookings].reservation_status not like 'Canceled'
 group by arrival_date_year, hotel, customer_type
 order by arrival_date_year
+
+
+-- Table to see distribution of canceled reservations
+select
+    count(*) as canceled_reservation,
+    hotel,
+    arrival_date_year
+from
+    [hotel-reviews - hotel_bookings]
+where
+    reservation_status = 'Canceled'
+group by
+    hotel, arrival_date_year;
+
+-- Table to see distribution of reservations kept
+select
+    count(*) as kept_reservation,
+    hotel,
+    arrival_date_year
+from
+    [hotel-reviews - hotel_bookings]
+where
+    reservation_status != 'Canceled'
+group by
+    hotel, arrival_date_year;
