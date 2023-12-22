@@ -77,3 +77,9 @@ where
     reservation_status != 'Canceled'
 group by
     hotel, arrival_date_year;
+
+----table to see if a cancelled reservation is affected by the number of waiting days
+select count([hotel-reviews - hotel_bookings].days_in_waiting_list) as waiting_days, customer_type, hotel
+from [hotel-reviews - hotel_bookings]
+where [hotel-reviews - hotel_bookings].reservation_status = 'Canceled'
+group by customer_type,hotel
