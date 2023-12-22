@@ -26,3 +26,4 @@ The goal is to explore the dataset, identify interesting patterns, and create im
 - Maintain a GitHub repository with all my queries, visualizations and presentation.
 
 ## Links to Analysis
+Tableau Dashboard - [View Dashboard](https://public.tableau.com/views/HotelAnalysis_17032620592640/HotelAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
