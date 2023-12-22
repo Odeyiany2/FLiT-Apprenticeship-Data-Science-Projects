@@ -1,7 +1,7 @@
 # Hotel Reservation Analysis in SQL and Tableau
 
 The provided dataset contains information about hotel reservations at two types of hotels: Resort Hotels (H1) and City Hotels (H2).
-The goal is to explore the dataset, identify interesting patterns, and create impactful visualizations to tell a compelling data story. This directory will contain my SQL query, a link to my published Tableau visualization and also a power point presentation
+The goal is to explore the dataset, identify interesting patterns, and create impactful visualizations to tell a compelling data story. This directory will contain my SQL query and a link to my published Tableau visualization.
 
 ## Tools used for Analysis
 * `SQL Environment` - For Data Manipulation
@@ -19,11 +19,8 @@ The goal is to explore the dataset, identify interesting patterns, and create im
 **3. Tableau Visualization:**
 - Create visualizations in Tableau based on my findings from the SQL analysis and publish. 
 
-**4. Power Point Presentation:**
-- Create a 2-3(max) slides power point presentation to discuss my findings and suggestions
-
-**5. GitHub Repository:**
-- Maintain a GitHub repository with all my queries, visualizations and presentation.
+**4. GitHub Repository:**
+- Maintain a GitHub repository with all my queries and a link to my Dashboard.
 
 ## Links to Analysis
 Tableau Dashboard - [View Dashboard](https://public.tableau.com/views/HotelAnalysis_17032620592640/HotelAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
