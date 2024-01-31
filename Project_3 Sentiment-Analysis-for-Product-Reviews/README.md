@@ -20,6 +20,14 @@ The following tools were used for different areas of the project:
   - `CountVectorizer`: Transform text to vectors
   - `GridSearchCV`: Hyperparameter tuning
   - `RandomForestClassifier`: ML algorithm for classification problems
+
+* Evaluation Metrics:
+  - `Accuracy Score`: Number of correctly predicted class over the total classes 
+  - `Precision`: ratio of correctly predicted positive classes over the total positive classes
+  - `Recall`: ratio of correctly predicted positive class over the total classes
+  - `Classification report`: a report showing precision, recall and F-1 score 
+  - `ROC Curve`: a plot showing the true positive rate(TPR) over false positive rate(FPR)
+  - `Confusion matrix`: a table for assessing the quality of our classification model prediction
     
 * Deployment: `Streamlit`
 
