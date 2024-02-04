@@ -32,7 +32,23 @@ The following tools were used for different areas of the project:
 * Deployment: `Streamlit`
 
 ## Data Insights
-With the use of pythonn libraries  `seaborn` and `matplotlib` to perform data visualization in the notebook, the following were discovered:
-* More than 50% of the customers gave a positive review about the amazon product(s) they purchased. This proves that majority of the time,
-  many of the customers are satisfied with their purchase.
-* The business recorded its highest level of satisfied purchases due to the positive reviews left by the customers. The positive reviews surpassed the negative ones with a great margin. 
+With the use of python libraries  `seaborn` and `matplotlib` to perform data visualization (Univariate and Bivariate Analysis) in the notebook, the following were discovered:
+* Amazon products on a scale of 1-5, with one being bad and 5 being excellent, have a 65% of excellent ratings.
+* The 5 star rating for products increased massively in the year 2015.
+* Positive sentiments also garnered much percentage than that of the negative sentiments-84% for positive and 16% for negative. There is also a massive increase in positive sentiments in the year 2015.
+* In all 2015, showed that customers were pleased with their purchases.
+
+## NoteBook Structure
+```bash
+├── Downloading and Importing of Necessary Libraries
+├── Data Collection
+├── Exploratory Data Analysis
+│   ├── converting columns to date data types
+│   ├── treating missing data
+│   ├── creating new columns
+├── Data Visualization
+├── Data Preprocessing
+├── Model Building 
+│   ├── model training
+│   ├── model evaluation
+```
