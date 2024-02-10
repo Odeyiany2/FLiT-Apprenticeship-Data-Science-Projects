@@ -6,6 +6,6 @@ different audiences- **Upper Management and Operational Teams**.
 This is eventually help with effective risk assessment and will be used to make strategic decisions. 
 
 ## Tools
-* `BigQuery`: Used for data analysis
+* `BigQuery`: Used for data analysis because it will allow us to handle our massive dataset swiftly and efficiently.
 * `Tableau`: This will be used for visualization for upper management 
-* `Google Data Studio`: This will be used to create visualizations for the operational teams
+* `Google Data Studio`: This will be used to create visualizations for the operational teams which will help them get insights on ways to reduce cost, optimize processes. 
