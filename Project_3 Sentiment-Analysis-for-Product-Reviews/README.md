@@ -38,6 +38,18 @@ With the use of python libraries  `seaborn` and `matplotlib` to perform data vis
 * Positive sentiments also garnered much percentage than that of the negative sentiments-84% for positive and 16% for negative. There is also a massive increase in positive sentiments in the year 2015.
 * In all 2015, showed that customers were pleased with their purchases.
 
+
+## Model Evaluation Metrics
+For the evaluation of my model, I used the accuracy, precision and recall score. The model evaluation is splitted into two:
+* Model Evaluation without Hyperparameter Tuning:
+  ![Metrics](https://github.com/Odeyiany2/FLiT-Apprenticeship-Data-Science-Projects/blob/main/Project_3%20Sentiment-Analysis-for-Product-Reviews/Screenshot%20(145).png)
+  
+  - We got an accuracy of 85%
+  - A precision score of over 85%: this means our model predicted 85% of positive labels in our dataset correctly. 
+  - Our recall score of 99%
+
+* Model Evaluation with Hyperparameter Tuning:
+
 ## NoteBook Structure
 ```bash
 ├── Downloading and Importing of Necessary Libraries
