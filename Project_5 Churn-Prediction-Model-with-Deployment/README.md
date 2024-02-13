@@ -21,3 +21,8 @@ This project is about understanding why customers leave a business service and a
   - `Scikit Learn`: for ML algorithms
     
 * `Heroku`: a cloud platform that simplifies the deployment process of our model
+
+
+## Data Insights
+The following are some insights discovered from our dataset using `univariate, bivariate and multivariate analysis`:
+* The genders in our dataset are equally distributed; 50% Male and 50% Female
