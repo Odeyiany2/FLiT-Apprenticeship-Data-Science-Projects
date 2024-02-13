@@ -28,3 +28,5 @@ The following are some insights discovered from our dataset using `univariate, b
 * Our target variable which is the customer's churn has a percentage of 26.5% for customers that churned and73.5% for customers that didn't.
 * The genders in our dataset are equally distributed; 50% Male and 50% Female.
 * Majority of Customers are not Senior Citizens with the exact percentage been 84% for non senior citizens and 16% for senior citizens
+* Over 3500 of customers have a month to month contract with the company.
+* Majority of customers, above 4500 of them do not have dependents.
