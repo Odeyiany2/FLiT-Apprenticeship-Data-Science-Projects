@@ -19,6 +19,7 @@ This project is about understanding why customers leave a business service and a
   - `Pandas`: for data analysis and manipulation
   - `Seaborn`: for high level data visualizations
   - `Scikit Learn`: for ML algorithms
+  - `Tensorflow` and `Keras`: for deep learning
     
 * `Heroku`: a cloud platform that simplifies the deployment process of our model
 
