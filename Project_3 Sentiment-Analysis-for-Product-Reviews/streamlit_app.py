@@ -104,13 +104,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 5,
    "id": "69ed6e7d-7c44-4a32-afd5-1c69aef97209",
    "metadata": {},
    "outputs": [],
    "source": [
     "import streamlit as st\n",
-    "import joblib"
+    "import joblib\n",
+    "import pandas as pd"
    ]
   },
   {
@@ -131,7 +132,19 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "st.set_page_config(page_title =\"Sentiment Analysis App\", page_icon = \"😊🙁\")"
+    "st.set_page_config(page_title =\"Sentiment Analysis App\", page_icon = \"😊🙁\")\n",
+    "st.markdown(\"# Sentiment Analysis\")\n",
+    "st.markdown(\"### Positive or Negative: A Text or A CSV File\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2769e40e-b602-4934-85fb-f0c3ab8307b2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#page layo"
    ]
   }
  ],
