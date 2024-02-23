@@ -64,4 +64,5 @@ For the evaluation of my model, I used the accuracy, precision and recall score.
 ├── Model Building 
 │   ├── model training
 │   ├── model evaluation
+│   ├── model saving
 ```
