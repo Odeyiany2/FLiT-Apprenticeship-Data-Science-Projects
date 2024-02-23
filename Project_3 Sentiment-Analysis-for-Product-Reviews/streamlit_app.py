@@ -144,7 +144,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "#page layo"
+    "#page layout"
    ]
   }
  ],
