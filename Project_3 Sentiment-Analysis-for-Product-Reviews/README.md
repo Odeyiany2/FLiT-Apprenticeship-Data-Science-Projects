@@ -10,6 +10,7 @@ The following tools were used for different areas of the project:
   - `Seaborn`: a library based on matplotlib and it provides a high-level interface for data visualization
   - `matplotlib`: for data visualization
   - `word cloud`: for visualizing text data
+  - `Joblib`: Saving our model for deployment
     
 * Natural Language Processing:
   - `nlkt`: Natural Language Toolkit is a collection of libraries for natural language processing
