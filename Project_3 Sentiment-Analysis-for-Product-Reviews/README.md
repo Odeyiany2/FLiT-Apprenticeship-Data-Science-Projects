@@ -38,15 +38,17 @@ With the use of python libraries  `seaborn` and `matplotlib` to perform data vis
 * The 5 star rating for products increased massively in the year 2015.
 * Positive sentiments also garnered much percentage than that of the negative sentiments-84% for positive and 16% for negative. There is also a massive increase in positive sentiments in the year 2015.
 * In all 2015, showed that customers were pleased with their purchases.
-
+* **One important conclusion from our visualization is that our dataset is highly imbalanced so we will be using algorithms and techniques that effectively takes care of this imbalance and maintains our models' accuracy.**
 
 ## Model Evaluation Metrics
-For the evaluation of my model, I used the accuracy, precision and recall score. 
-![Metrics](https://github.com/Odeyiany2/FLiT-Apprenticeship-Data-Science-Projects/blob/main/Project_3%20Sentiment-Analysis-for-Product-Reviews/Screenshot%20(145).png)
-  
+Intially the stats pf the models' evaluation was as follows:
   - We got an accuracy of 85%
   - A precision score of over 85%: this means our model predicted 85% of positive labels in our dataset correctly. 
   - Our recall score of 99%
+
+After introducing the use of stop words, our stats improved better
+  - Accuracy score became 88%
+
 
 ## NoteBook Structure
 ```bash
