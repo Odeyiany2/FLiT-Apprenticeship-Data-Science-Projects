@@ -2,3 +2,22 @@
 
 
 This is a dynamic project that merges data analysis, API intergration and data driven visualizations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Photo Credit:** [NASA](https://climate.nasa.gov/what-is-climate-change/)
