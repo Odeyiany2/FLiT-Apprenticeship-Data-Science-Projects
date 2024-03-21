@@ -1,3 +1,6 @@
+![Photo](https://github.com/Odeyiany2/FLiT-Apprenticeship-Data-Science-Projects/blob/main/Project_1%20Market-Basket-Analysis-for-E-Commerce/SPIN-Strategy-Market-Basket-Analysis-2020%20(1).jpg)
+
+
 # Market Basket Analysis for E-Commerce
 The goal of this project is to extract valuable insights from transaction data, understand customer purchasing behaviour and use it for business optimization.
 
