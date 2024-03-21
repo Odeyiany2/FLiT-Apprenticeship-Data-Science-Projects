@@ -65,3 +65,13 @@ After introducing the use of stop words, our stats improved better
 │   ├── model evaluation
 │   ├── model saving
 ```
+
+
+
+## Problems Encountered and how they were solved
+When saving the model built so it can be incorporated into the streamlit application, I kept getting an error that the size of the model 
+has exceeded the github file size limit. I later figured that I needed to incorporate the Github Large File Storage (LFS) so that after saving my model I can easily push my changes to my github repo without any issues. 
+
+### **Resources to learn more about Git LFS**
+* [Learn more about Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage)
+* [Watch this video](https://youtu.be/jXsvFfksvd0?si=cL95OQ6j_g5ivcr3)
