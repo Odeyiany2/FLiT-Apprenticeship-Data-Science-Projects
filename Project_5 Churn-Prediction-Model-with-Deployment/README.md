@@ -45,3 +45,12 @@ The following are some insights discovered from our dataset.
   - Monthly customers are high churners because they are on no contract.
 
 * **The possibility of churn is affected by three factors: the tenure group of the customer, the monthly charge and the total charge. Higher monthly charge at low tenure leads to low total charge.  Low tenure group, high monthly charge and low total charge results in high churn.** 
+
+
+
+
+
+
+
+
+**Image Source:** [Photo Credit](https://daxg39y63pxwu.cloudfront.net/images/blog/churn-models/Customer_Churn_Prediction_Models_in_Machine_Learning.png)
