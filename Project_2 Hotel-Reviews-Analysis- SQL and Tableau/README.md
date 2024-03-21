@@ -1,3 +1,6 @@
+![Image](https://github.com/Odeyiany2/FLiT-Apprenticeship-Data-Science-Projects/blob/main/Project_2%20Hotel-Reviews-Analysis-%20SQL%20and%20Tableau/hotel.jpeg)
+
+
 # Hotel Reservation Analysis in SQL and Tableau
 
 The provided dataset contains information about hotel reservations at two types of hotels: Resort Hotels (H1) and City Hotels (H2).
