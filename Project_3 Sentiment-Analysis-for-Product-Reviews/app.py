@@ -87,7 +87,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 2,
    "id": "a64b25d0-1818-4de7-ac33-7f9990de07dc",
    "metadata": {},
    "outputs": [],
@@ -99,16 +99,46 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 3,
    "id": "1be2bd29-da09-48d3-b042-3716c11a5242",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "2024-03-22 12:30:09.949 \n",
+      "  \u001b[33m\u001b[1mWarning:\u001b[0m to view this Streamlit app on a browser, run it with the following\n",
+      "  command:\n",
+      "\n",
+      "    streamlit run /home/codespace/.local/lib/python3.10/site-packages/ipykernel_launcher.py [ARGUMENTS]\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "DeltaGenerator()"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
    "source": [
-    "st.set_page_config(page_title=\"ASentiment Analysis App\", page_icon=\"😊😟\")\n",
+    "st.set_page_config(page_title=\"Amazon Reviews Sentiment Analysis App\", page_icon=\"😊😟\")\n",
     "\n",
     "st.markdown(\"#😊😟 Sentiment Analysis\")\n",
     "st.markdown(\"### (Is the text Positive or Negative?)\")"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6c49df54-786a-47b0-ba57-909a984d789d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
