@@ -74,7 +74,7 @@ has exceeded the github file size limit. I later figured that I needed to incorp
 
 ### **Resources to learn more about Git LFS**
 * [Learn more about Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage)
-* [Watch this video](https://youtu.be/jXsvFfksvd0?si=cL95OQ6j_g5ivcr3)
+* [Watch this video](https://youtu.be/9HCsSD5PMSk?si=cIaGK9wcmYDp67FT)
 
 
 
