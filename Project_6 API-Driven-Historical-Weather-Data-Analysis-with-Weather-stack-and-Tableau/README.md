@@ -3,6 +3,12 @@
 
 
 Project 6 is an interesting one and it is a dynamic project that merges data analysis, API intergration and data driven visualizations. For this project I will be fetching a historical weather data for various locations using a weatherstack API. After extraction, I will store the data in a database and then perform data analysis before going further to visualize my results. 
+Data will be extract using the API key from the weatherstack website under the API documnetation section.
+
+[API Documentation](https://weatherstack.com/documentation)
+
+
+
 
 ## Tools
 The following tools were used in different parts of the project:
