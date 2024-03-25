@@ -19,6 +19,7 @@ This project is about understanding why customers leave a business service and a
   - `Pandas`: for data analysis and manipulation
   - `Seaborn`: for high level data visualizations
   - `Scikit Learn`: for ML algorithms
+  - `Imblearn`: for dealing with our imbalanced target variable
   - `Tensorflow` and `Keras`: for deep learning
     
 * `Heroku`: a cloud platform that simplifies the deployment process of our model
@@ -27,7 +28,7 @@ This project is about understanding why customers leave a business service and a
 ## Data Insights
 The following are some insights discovered from our dataset.
 * `Univariate Analysis`:
-  - Our target variable which is the customer's churn has a percentage of 26.5% for customers that churned and73.5% for customers that didn't.
+  - Our target variable which is the customer's churn has a percentage of 26.5% for customers that churned and73.5% for customers that didn't. This shows that we are dealing with a highly imbalanced data set
   - The genders in our dataset are equally distributed; 50% Male and 50% Female.
   - Majority of Customers are not Senior Citizens with the exact percentage been 84% for non senior citizens and 16% for senior citizens
   - Over 3500 of customers have a month to month contract with the company.
@@ -36,7 +37,7 @@ The following are some insights discovered from our dataset.
   - Internet Service Distribution is as follows: 44% use Fiber optic, 34% use DSL, and 22% do not use any internet service.
 
 * `Bivariate Analysis`:
-  - Thers is a positive correlation between the monthly charges variable and the total charges variable. The higher the monthly charge, the higher the total charge.
+  - There is a positive correlation between the monthly charges variable and the total charges variable. The higher the monthly charge, the higher the total charge.
   - A high monnthly charge leads to a high churn
   - A low total charge leads to a high churn.
   - Customers who use the electric check as a medium of payment are high churners
@@ -48,8 +49,8 @@ The following are some insights discovered from our dataset.
 
 
 
-
-
+## **Problems Encountered and How they were Solved**
+* The very first issue encountered which was discovered when Exploratory Data Analysis was conducted, was the issue of imbalanced dataset. Our target variable is highly imbalanced which can prove to be a disadvantage when we build our model. If we leave our dataset without dealing with the imbalance, our model will not most likely not consider the minority class when making predictions. To ensure equal consideration of the two values in our target variable `Churn` we need to ensure that our data is balanced by using either the SMOTE technique or Over-Sampling or Under-Sampling technique. 
 
 
 
