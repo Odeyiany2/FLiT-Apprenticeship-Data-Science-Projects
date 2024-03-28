@@ -51,7 +51,7 @@ The following are some insights discovered from our dataset.
 
 ## **Problems Encountered and How they were Solved**
 * The very first issue encountered which was discovered when Exploratory Data Analysis was conducted, was the issue of imbalanced dataset. Our target variable is highly imbalanced which can prove to be a disadvantage when we build our model. If we leave our dataset without dealing with the imbalance, our model will not most likely not consider the minority class when making predictions. To ensure equal consideration of the two values in our target variable `Churn` we need to ensure that our data is balanced by using either the SMOTE technique or Over-Sampling or Under-Sampling technique. Also when dealing with an imbalanced dataset we can't only take into consideration the accuracy or our model because most times our accuracy can be very high and the predictions made only favours the majority class. We need to look at other metrics such as the precision, recall and F-1 score of each class in our traget variable. 
-
+[Learn More](https://youtu.be/JnlM4yLFNuo?si=gvGuh9j9em_EVyxa)
 
 
 
