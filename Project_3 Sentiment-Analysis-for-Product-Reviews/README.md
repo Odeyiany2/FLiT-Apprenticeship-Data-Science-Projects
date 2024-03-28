@@ -76,7 +76,7 @@ has exceeded the github file size limit. I later figured that I needed to incorp
    - [Watch this video](https://youtu.be/9HCsSD5PMSk?si=cIaGK9wcmYDp67FT)
 
 * Imbalanced Dataset: Used the SMOTE technique from the imblearn library
-
+[Learn more about SMOTE and other techniques for imbalanced data](https://youtu.be/JnlM4yLFNuo?si=gvGuh9j9em_EVyxa)
 
 
 
