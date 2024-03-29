@@ -41,7 +41,7 @@ With the use of python libraries  `seaborn` and `matplotlib` to perform data vis
 * **One important conclusion from our visualization is that our dataset is highly imbalanced so we will be using algorithms and techniques that effectively takes care of this imbalance and maintains our models' accuracy.**
 
 ## Model Evaluation Metrics
-When it comes to dealing with classification problems such as this a good metric to look out for is the F1 score of the classes involved. This is because it provides robust results for both balanced and imbalanced dataset unlike accuracy. 
+When it comes to dealing with classification problems such as this a good metric to look out for is the F1 score of the classes involved. This is because it provides robust results for both balanced and imbalanced dataset unlike accuracy. F1 score is the harmonic mean of precision and recall, which means that the F1 score will tell you the model’s balanced ability to both capture positive cases (recall) and be accurate with the cases it does capture (precision).
 
 Working with our imbalanced dataset we got an accuracy score of 88% although the accuracy score is really goood, the F-1 score for both classes wasn't really good. The F1 score of the minority class was lower than that of the majority class which showed that our model didn't fully consider the minority class when making predictions.
 
