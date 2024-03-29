@@ -22,7 +22,7 @@ This project is about understanding why customers leave a business service and a
   - `Imblearn`: for dealing with our imbalanced target variable
   - `Tensorflow` and `Keras`: for deep learning
     
-* `Heroku`: a cloud platform that simplifies the deployment process of our model
+* `Streamlit`: a cloud platform that simplifies the deployment process of our model
 
 
 ## Data Insights
