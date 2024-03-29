@@ -41,14 +41,11 @@ With the use of python libraries  `seaborn` and `matplotlib` to perform data vis
 * **One important conclusion from our visualization is that our dataset is highly imbalanced so we will be using algorithms and techniques that effectively takes care of this imbalance and maintains our models' accuracy.**
 
 ## Model Evaluation Metrics
-Intially the stats pf the models' evaluation was as follows:
-  - We got an accuracy of 85%
-  - A precision score of over 85%: this means our model predicted 85% of positive labels in our dataset correctly. 
-  - Our recall score of 99%
+When it comes to dealing with classification problems such as this a good metric to look out for is the F1 score of the classes involved. This is because it provides robust results for both balanced and imbalanced dataset unlike accuracy. 
 
-After introducing the use of stop words, our stats improved better
-  - Accuracy score became 88%
+Working with our imbalanced dataset we got an accuracy score of 88% although the accuracy score is really goood, the F-1 score for both classes wasn't really good. The F1 score of the minority class was lower than that of the majority class which showed that our model didn't fully consider the minority class when making predictions.
 
+This is a bias and we can't deploy our model while it makes errors when predicting. To correct this I used the SMOTE technique to solve the issue of imbalance. With this technique our model was able to equally consider both classes when making predictions making the f1 score to greatly improve and it also imporved our accuracy score to 90%.
 
 ## NoteBook Structure
 ```bash
