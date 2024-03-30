@@ -24,9 +24,20 @@ if option=="A text"
         prediction = model.predict(text)
         end = time.time()
         st.write("Prediction time taken: ", round(end-start, 2), "seconds.")
+        st.write("Predicted Sentiment is: ", prediction)
         title = st.text_area(label="Output", value=translation, height=200, label_visibility="hidden")
 
-elif option == "A csv file"
+elif option == "A csv file":
+    file = st.file_uploader("Upload a csv file")
+    if st.button("Predict"):
+        start = time.time()
+        cv = CountVectorizer(ngram_range = (1,2))
+        X_text = cv.fit_transform(file)
+        prediction = model.predict(X_text)
+        end = time.time()
+        st.write("Prediction time taken: ", round(end-start, 2), "seconds.")
+        st.write("Predicted Sentiment is: ", prediction)
+        title = st.text_area(label="Output", value=translation, height=200, label_visibility="hidden")
 
 
 
