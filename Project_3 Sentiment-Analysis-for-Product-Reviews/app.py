@@ -2,6 +2,7 @@ import streamlit as st
 import time
 import pandas as pd
 import joblib
+import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 
 st.set_page_config(page_title="Amazon Reviews Sentiment Analyzer", page_icon="😊🙁")
@@ -53,6 +54,7 @@ elif option == "A csv file":
         start = time.time()
         df = pd.read_csv(file)
         corpus = data_transform(df["reviews"])
+        cv = CountVectorizer(ngram_range = (1,2))
         new_corpus = cv.fit_transform(corpus)
         df["sentiment_score"] = model.predict(new_corpus)
         df["sentiment_analysis"] = df["sentiment_score"].apply(analyze)
