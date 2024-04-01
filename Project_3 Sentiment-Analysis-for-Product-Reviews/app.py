@@ -60,6 +60,19 @@ elif option == "A csv file":
         df["sentiment_analysis"] = df["sentiment_score"].apply(analyze)
         end = time.time()
         st.write(df.head())
+        
+        #create a chart on the setiment analysis
+        dict_ = dict(df["sentiment_analysis"].value_counts())
+        explode = (0, 0.1, 0)  # only "explode" the 2nd slice 
+        fig1, ax1 = plt.subplots()
+        ax1.pie(dict_.values(), explode=explode, labels=dict_.keys(), autopct='%1.1f%%',
+                shadow=True, startangle=90)
+        ax1.axis('equal')        
+        st.pyplot(fig1)
+        # Save the plot to a file (e.g., scatter.png)
+        sentiment_chart = "sentiment_chart.png"
+        plt.savefig(fn)
+        
         st.write("Prediction time taken: ", round(end-start, 2), "seconds.")
 
         #download button for the analyzed csv file
@@ -74,6 +87,15 @@ elif option == "A csv file":
             file_name='reviews sentiment.csv',
             mime='text/csv',
         )
+
+        #download button for the chart image
+        with open(sentiment, "rb") as file:
+            btn = st.download_button(
+                    label="Download image",
+                    data=file,
+                    file_name="sentiment_chart.png",
+                    mime="image/png"
+                  )
 
 
 
