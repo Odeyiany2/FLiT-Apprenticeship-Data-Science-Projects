@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-import pandas
+import pandas as pd
 import joblib
 from sklearn.feature_extraction.text import CountVectorizer
 
@@ -29,8 +29,23 @@ if option=="A text"
 
 elif option == "A csv file":
     file = st.file_uploader("Upload a csv file")
+    #creating a function to perform our preprocessing of data
+    def data_transform(data):
+        corpus = [] 
+        for item in data: 
+            new_item = re.sub('[^a-zA-Z]',' ',str(item)) 
+            new_item = new_item.lower() 
+            new_item = new_item.split() 
+            new_item = [wn.lemmatize(word) for word in new_item if word not in set(stopwords.words('english'))] 
+            corpus.append(' '.join(str(x) for x in new_item)) 
+        return corpus
     if st.button("Predict"):
         start = time.time()
+        df = pd.read_csv(file)
+        corpus = data_transform(df["reviews"])
+        new_corpus = cv.fit_transform(corpus)
+        df["Sentiment"] = model.predict(new_corpus)
+        end = time.ti
         
 
 
