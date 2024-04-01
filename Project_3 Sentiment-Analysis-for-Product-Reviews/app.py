@@ -48,6 +48,7 @@ elif option == "A csv file":
             return "Negative"
         else:
             return "Neutral"
+            
     if st.button("Predict"):
         start = time.time()
         df = pd.read_csv(file)
@@ -64,10 +65,11 @@ elif option == "A csv file":
         def convert_df(df):
             return df.to_csv().encode("utf-8")
         csv = convert_df(df)
+        
         st.download_button(
             label="Download data as CSV",
             data=csv,
-            file_name='large_df.csv',
+            file_name='reviews sentiment.csv',
             mime='text/csv',
         )
 
