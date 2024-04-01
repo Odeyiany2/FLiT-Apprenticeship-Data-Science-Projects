@@ -71,7 +71,7 @@ elif option == "A csv file":
         st.pyplot(fig1)
         # Save the plot to a file (e.g., scatter.png)
         sentiment_chart = "sentiment_chart.png"
-        plt.savefig(fn)
+        plt.savefig(sentiment_chart)
         
         st.write("Prediction time taken: ", round(end-start, 2), "seconds.")
 
@@ -89,11 +89,11 @@ elif option == "A csv file":
         )
 
         #download button for the chart image
-        with open(sentiment, "rb") as file:
+        with open(sentiment_chart, "rb") as file:
             btn = st.download_button(
                     label="Download image",
                     data=file,
-                    file_name="sentiment_chart.png",
+                    file_name=sentiment_chart,
                     mime="image/png"
                   )
 
@@ -104,5 +104,5 @@ elif option == "A csv file":
 
 
 st.divider()
-st.markdown("##### Built by Miriam Itopa Odeyiany for project 5 of my apprenticeship program")
+st.markdown("##### Built by Miriam Itopa Odeyiany as a Project for a Data Science Apprenticeship Program")
 st.write("Copyright © Miriam Itopa Odeyiany, Nigeria 2024")
