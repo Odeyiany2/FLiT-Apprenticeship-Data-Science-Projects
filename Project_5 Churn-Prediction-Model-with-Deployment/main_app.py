@@ -13,3 +13,4 @@ model = joblib.load('Churn_Prediction_Model.joblib')
 model_2 = joblib.load("Telecom_Churn_Prediction_Model.joblib")
 
 
+option = st.selectbox(
