@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import matplotlib.pyplot as plt
 
 
 st.set_page_config(page_title="Customer Churn Prediction App", page_icon="🏃🏽‍♀🏃🏼")
@@ -13,8 +14,12 @@ model = joblib.load('Churn_Prediction_Model.joblib')
 model_2 = joblib.load("Telecom_Churn_Prediction_Model.joblib")
 
 
-option = st.file_uploader("Upload a csv file")
+option = st.selectbox(
+    "How would you like to analyze?",
+    ("Entering customer's details manually", "UploadinA csv file"))
 if st.button("Predict"):
+    start = time.time()
+    
 
 
 
