@@ -39,10 +39,11 @@ if option=='A text':
     if st.button("Predict"):
         start = time.time()
         #cv = CountVectorizer(ngram_range = (1,2))
-        text_score = title.apply(score)
-        prediction = text_score.apply(analyze)
+        text_score = score(title)
+        prediction = analyze(text_score)
         end = time.time()
         st.write("Prediction time taken: ", round(end-start, 2), "seconds.")
+        st.write("Polarity Score is: ", text_score)
         st.write("Predicted Sentiment is: ", prediction)
     
 
@@ -63,7 +64,7 @@ elif option == "A csv file":
     
     #function for preprocessing 
     def score(x):
-        blob1 = TextBlob(x)
+        blob1 = TextBlob(str(x))
         return blob1.sentiment.polarity
 
     #function for analysis
@@ -88,7 +89,7 @@ elif option == "A csv file":
         
         #create a chart on the setiment analysis
         dict_ = dict(df["sentiment_analysis"].value_counts())
-        explode = (0, 0.1, 0)  # only "explode" the 2nd slice 
+        explode = tuple(0.1 if i == 1 else 0 for i in range(len(dict_.values())))
         fig1, ax1 = plt.subplots()
         ax1.pie(dict_.values(), explode=explode, labels=dict_.keys(), autopct='%1.1f%%',
                 shadow=True, startangle=90)
