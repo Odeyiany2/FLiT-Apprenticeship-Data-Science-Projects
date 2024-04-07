@@ -16,7 +16,7 @@ model_2 = joblib.load("Telecom_Churn_Prediction_Model.joblib")
 
 option = st.selectbox(
     "How would you like to analyze?",
-    ("Entering customer's details manually", "UploadinA csv file"))
+    ("Entering customer's details manually", "Upload a csv file"))
 if st.button("Predict"):
     start = time.time()
     
