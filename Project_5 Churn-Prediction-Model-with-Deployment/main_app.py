@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Customer Churn Prediction App", page_icon="🏃🏽‍♀🏃🏼")
 
-st.markdown("# 🏃🏽‍♀🏃🏼 Customer Churn Prediction for a Telecom Company")
+st.markdown("# 🏃🏽‍♀🏃🏼 Customer Churn Prediction for a Telecommunications Company")
 
 
 # load the models 
