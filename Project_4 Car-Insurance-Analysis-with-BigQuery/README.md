@@ -10,6 +10,15 @@ This is eventually help with effective risk assessment and will be used to make 
 * `Tableau`: This will be used for visualization for upper management 
 * `Google Data Studio`: This will be used to create visualizations for the operational teams which will help them get insights on ways to reduce cost, optimize processes. 
 
+## Links to Visualizations
+* Tableau
+
+
+
+
+
+
+
 
 
 
