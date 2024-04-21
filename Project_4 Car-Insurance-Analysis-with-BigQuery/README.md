@@ -7,7 +7,7 @@ This is eventually help with effective risk assessment and will be used to make 
 
 ## Tools
 * `Microsoft SQL Server`: Used for data analysis because it will allow us to handle our massive dataset swiftly and efficiently.
-* `Jupyter Notebook: Python`: In addition to Microsoft SQL Server, I will be using jupyter notebook to also perform data analysis.
+* `Jupyter Notebook (Python)`: In addition to Microsoft SQL Server, I will be using jupyter notebook to also perform data analysis.
 * `Tableau`: This will be used for visualization for upper management 
 * `Google Data Studio`: This will be used to create visualizations for the operational teams which will help them get insights on ways to reduce cost, optimize processes. 
 
